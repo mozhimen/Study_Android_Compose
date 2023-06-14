@@ -3,17 +3,13 @@ package com.mozhimen.study_compose
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 import com.mozhimen.study_compose.ui.theme.Study_Android_ComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -26,27 +22,24 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    BirthdayView.BirthdayGreetingWithText(
+                        message = stringResource(R.string.happy_birthday_kolin),
+                        from = stringResource(R.string.from_kolin)
+                    )
                 }
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Surface(color = Color.Magenta) {
-        Text(
-            text = "Hello , My Name is $name!",
-            modifier = modifier.padding(24.dp)
-        )
-    }
-}
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun BirthdayGreetingPreview() {
     Study_Android_ComposeTheme {
-        Greeting("Android")
+        BirthdayView.BirthdayGreetingWithImage(
+            message = stringResource(R.string.happy_birthday_kolin),
+            from = stringResource(R.string.from_kolin)
+        )
     }
 }

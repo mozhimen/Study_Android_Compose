@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Study_Android_Compose</string>
+    <string name="happy_birthday_kolin">Happy Birthday Kolin!</string>
+    <string name="from_kolin">- from Kolin</string>
 </resources>
