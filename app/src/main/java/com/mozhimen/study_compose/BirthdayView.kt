@@ -30,7 +30,7 @@ import com.mozhimen.study_compose.ui.theme.Study_Android_ComposeTheme
  */
 @Preview(showBackground = true)
 @Composable
-fun BirthdayViewPreview() {
+fun BirthdayViewPreviewInner() {
     Study_Android_ComposeTheme {
         BirthdayView.BirthdayGreetingWithImage(
             message = stringResource(R.string.happy_birthday_kolin),
