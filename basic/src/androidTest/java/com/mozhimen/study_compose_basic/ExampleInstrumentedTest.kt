@@ -1,4 +1,4 @@
-package com.mozhimen.study_compose
+package com.mozhimen.study_compose_basic
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

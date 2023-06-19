@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Study_Android_Compose"
-include(":app")
+include(":basic")
  

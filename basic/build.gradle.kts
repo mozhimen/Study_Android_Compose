@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mozhimen.study_compose"
+    namespace = "com.mozhimen.study_compose_basic"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.mozhimen.study_compose"
+        applicationId = "com.mozhimen.study_compose_basic"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

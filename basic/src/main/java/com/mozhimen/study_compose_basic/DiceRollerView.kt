@@ -1,4 +1,4 @@
-package com.mozhimen.study_compose
+package com.mozhimen.study_compose_basic
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column

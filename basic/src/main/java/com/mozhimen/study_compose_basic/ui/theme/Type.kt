@@ -1,4 +1,4 @@
-package com.mozhimen.study_compose.ui.theme
+package com.mozhimen.study_compose_basic.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

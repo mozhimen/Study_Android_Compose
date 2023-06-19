@@ -1,4 +1,4 @@
-package com.mozhimen.study_compose
+package com.mozhimen.study_compose_basic
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -19,13 +19,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mozhimen.study_compose.ui.theme.Study_Android_ComposeTheme
+import com.mozhimen.study_compose_basic.ui.theme.Study_Android_ComposeTheme
 
 /**
  * @ClassName BirthdayGreetingWithText
  * @Description TODO
  * @Author Mozhimen & Kolin Zhao
- * @Date 2023/6/14 11:10
+ * @Date 2023/6/14 11:10jian
  * @Version 1.0
  */
 @Preview(showBackground = true)
